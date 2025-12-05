@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+while [ $number -lt 10 ]; do echo "Best School"; if [ $number -eq 8 ]; then echo "Hi"; fi; number=$(( number+1 )); done
