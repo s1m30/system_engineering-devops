@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" except for the 4th and 8th iteration
+number=0; while [ $number -lt 10 ]; do if [ $number -eq 3 ]; then echo "bad luck"; elif [ $number -eq 7 ]; then echo "good luck"; else echo "Best School"; fi; number=$(( number+1 )); done
