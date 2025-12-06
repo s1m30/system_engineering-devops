@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that displays the process identifier of the current bash terminal
+
+pidof bash
